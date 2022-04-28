@@ -1,1 +1,23 @@
 # Adaptive-Information-BSP
+An accompanying repository for "Adaptive Information Belief Space Planning", to
+be published in IJCAI 2022. Check out the
+[arxiv version](https://arxiv.org/abs/2201.05673).
+
+AI-BSP is an online, general purpose POMDP solver with the state-dependent and
+entropy as a reward function. It uses an adaptive approach to increase
+computational efficiency at run time; for more details please see the [paper](https://arxiv.org/abs/2201.05673).
+
+To run the code, simply clone the repository to your local machine and run
+main.jl.
+
+
+# Citing
+If you found our AI-BSP useful in your research, you can cite us
+```
+@article{barenboim2022adaptive,
+  title={Adaptive Information Belief Space Planning},
+  author={Barenboim, Moran and Indelman, Vadim},
+  journal={arXiv preprint arXiv:2201.05673},
+  year={2022}
+}
+```
